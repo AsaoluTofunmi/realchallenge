@@ -1,0 +1,303 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #fff;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 50px 20px 50px;
+}
+
+.smallbtn {
+    border: 1px solid rgb(227, 117, 135);
+    border-radius: 50px 50px;
+    padding: 10px 30px 10px 30px;
+    color: rgb(227, 117, 135);
+    background-color: #fff;
+    box-shadow: 0 8px 16px 0
+    rgba(202, 180, 180, 0),
+    0 6px 20px 0 
+    rgb(214, 205, 205);
+}
+
+.smallbtn:hover {
+    border: 1px solid pink;
+    color: pink;
+    cursor: pointer;
+}
+
+.head {
+    text-align: center;
+    padding-top: 200px;
+}
+
+.build {
+    font-weight: bold;
+    font-size: 70px;
+    padding-bottom: 40px;
+}
+
+.huddle {
+    font-size: 30px;
+    font-weight: lighter;
+    padding-bottom: 50px;
+    color: rgb(13, 23, 13);
+}
+
+.btn1 {
+    border: 5px solid rgb(181, 39, 63);
+    border-radius: 50px 50px;
+    background-color: rgb(181, 39, 63);
+    color: #fff;
+    padding: 20px 70px 20px 70px;
+    font-size: 20px;
+    font-weight: bolder;
+    box-shadow: 0 8px 16px 0
+    rgba(183, 167, 167, 0),
+    0 6px 20px 0 
+    rgb(186, 164, 164);
+}
+
+.btn1:hover {
+    border: 5px solid rgb(196, 127, 138);
+    background-color: rgb(196, 127, 138);
+}
+
+.mockup {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.floatit {
+    display: flex;
+    justify-content: space-between;
+}
+
+.community {
+    padding: 20px 50px 0px 550px;
+
+}
+
+h1 {
+    font-size: 70px;
+}
+
+.comm {
+    font-size: 20px;
+    color: grey;
+}
+
+.messages {
+    padding: 20px 550px 0px 50px;
+}
+
+.sent {
+    color: grey;
+    text-align: center;
+}
+
+.bgtop {
+    padding: 400px 20px 20px 220px;
+}
+
+.tog {
+    font-size: 40px;
+    color: rgb(27, 42, 27);
+    padding-bottom: 30px;
+}
+
+.gen {
+    font-size: 20px;
+    color: rgb(39, 87, 39);
+}
+
+.bgimage {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.growtogether {
+    float: right;
+}
+
+.no-bg {
+    float: left;
+    max-width: 100%;
+    height: auto;
+}
+
+.nobg {
+    float: right;
+    text-align: left;
+    padding-top: 200px;
+}
+
+
+.bgbottom {
+    float: left;
+
+}
+
+.tag {
+    font-size: 40px;
+    color: rgb(27, 42, 27);
+    margin: 15em 20px 30px 10px;
+}
+
+.yourusers {
+    float: right;
+    padding-bottom: 0px;
+    
+}
+
+.bottomheading {
+    text-align: center;
+    padding-top: 20em;
+    padding-bottom: 50px;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.ready {
+    padding-bottom: 50px;
+}
+
+.btn2 {
+    text-align: center;
+    border: 5px solid rgb(181, 39, 63);
+    border-radius: 50px 50px;
+    background-color: rgb(181, 39, 63);
+    color: #fff;
+    padding: 20px 70px 20px 70px;
+    font-size: 20px;
+    font-weight: bolder;
+    box-shadow: 0 8px 16px 0
+    rgba(183, 167, 167, 0),
+    0 6px 20px 0 
+    rgb(186, 164, 164);
+}
+
+.btn2:hover {
+    border: 5px solid rgb(196, 127, 138);
+    background-color: rgb(196, 127, 138);
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20em 30px 30px 30px;
+}
+
+.newsfoot {
+    text-align: left;
+}
+
+.news {
+    font-size: 30px;
+}
+
+.tips {
+    padding-top: 20px;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+#email {
+    padding: 5px 100px 5px 50px;
+    border: 5px solid #fff;
+    border-radius: 8px 8px;
+    cursor: pointer;
+}
+
+#email:hover {
+    border: 1px solid red;
+}
+
+#subscribe {
+    margin-left: 30px;
+    padding: 8px 30px 8px 30px;
+    background-color: rgb(231, 45, 76);
+    color: #fff;
+    border: 5px solid rgb(231, 45, 76);
+    border-radius: 8px 8px;
+    cursor: pointer;
+}
+
+#subscribe:hover {
+    background-color:rgb(239, 112, 133) ;
+    border: 5px solid rgb(239, 112, 133);
+
+}
+
+#logo {
+    padding-bottom: 20px;
+}
+
+footer {
+    color: white;
+    background-image: url(images/bg-footer-top-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 1000em 100%;
+}
+
+.pho {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+.logo {
+    padding-right: 20px;
+}
+
+.emcon {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px
+}
+
+.emailicon {
+    padding-right: 20px;
+}
+
+.icons {
+    display: flex;
+    flex-flow: row;
+    padding-top: 30px;
+    cursor: pointer;
+}
+
+.fb {
+    margin-right: 20px;
+    border-radius: 2px;
+}
+
+.ig {
+    margin-right: 20px;
+    border-radius: 3px;
+}
+
+.tweet {
+    margin-right: 20px;
+    border-radius: 3px;
+}
+
+
+@media (max-width:1100px) {
+    .bgimage{
+        flex-direction: column;
+    }
+
+}
